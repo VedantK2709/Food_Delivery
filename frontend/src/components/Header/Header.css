@@ -38,9 +38,14 @@
     border: none;
     columns: #747474;
     font-weight: 500;
+    cursor: pointer;
     padding: 1vw 2.3vw;
     background-color: white;
     font-size: max(1vw, 13px);
     border-radius: 50px;
 
+}
+
+.header-contents button:hover{
+    background-color: #e1e0e0;
 }

@@ -25,11 +25,11 @@
     align-items: center;
     gap: 40px;
     
-
 }
 
 .navbar-menu li{
     cursor: pointer;
+    
 }
 
 .navbar button{

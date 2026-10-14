@@ -35,7 +35,7 @@ const StoreContextProvider = (props) =>{
     }
 
 
-
+    
     return (
         <StoreContext.Provider value = {contextValue}>
             {props.children}
