@@ -23,7 +23,7 @@ export async function connectDB() {
 
 
 // export const connectDB = async () => {
-//     await mongoose.connect('mongodb+srv://latixcoin_db_user:zulUC8eC4yMC92AM@cluster0.fik5det.mongodb.net/food-delivery').then(()=>console.log("DB Connected"))
+//     await mongoose.connect('').then(()=>console.log("DB Connected"))
 // } 
 
 
@@ -34,7 +34,7 @@ export async function connectDB() {
 // import mongoose from 'mongoose';
 // export async function connectToMongoDB() {
 //   try {
-//     await mongoose.connect("mongodb+srv://latixcoin_db_user:zulUC8eC4yMC92AM@cluster0.fik5det.mongodb.net/");
+//     await mongoose.connect("");
 //     console.log("You successfully connected to MongoDB!");
 //     return mongoose;
 //   } catch (err) {
@@ -48,9 +48,5 @@ export async function connectDB() {
 // }
 
 
-// -----------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 
-
-// mongodb+srv://vedantkmtech_db_user:j4CtS3lpTcRyxTDU@cluster0.2j315z8.mongodb.net/food-del
-
-// mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/food-del
